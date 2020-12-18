@@ -1,6 +1,6 @@
 FROM buildpack-deps:stretch
 
-ENV NGINX_VERSION nginx-1.19.2
+ENV NGINX_VERSION nginx-1.19.6
 ENV NGINX_RTMP_MODULE_VERSION 1.2.1
 
 RUN apt-get update && \
